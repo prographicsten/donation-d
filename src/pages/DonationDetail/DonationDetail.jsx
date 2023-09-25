@@ -4,8 +4,8 @@ import './DonationDetail.css'
 
 
 const DonationDetail = ({details}) => {
-    console.log(details);
-    const {image, title, description, text_btn_color, price} = details || {};
+    // console.log(details);
+    const {id, image, title, description, text_btn_color, price} = details || {};
 
     const handleDonationConfirm = () => {
         const addDonationLists = [];
