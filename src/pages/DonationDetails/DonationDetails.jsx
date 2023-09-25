@@ -12,8 +12,8 @@ const DonationDetails = () => {
     // console.log(donationDetails);
 
     useEffect(() => {
-        const findDetails = donationDetails?.find(detail => detail.id === id);
-        console.log(findDetails);
+        const findDetails = donationDetails?.find(detail => detail.id == id);
+        // console.log(findDetails);
         setDetails(findDetails);
     }, [id, donationDetails])
 

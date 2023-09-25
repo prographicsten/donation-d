@@ -4,8 +4,8 @@ import MainLayout from '../layout/MainLayout';
 import Home from '../pages/Home/Home';
 import Donations from '../pages/Donations/Donations';
 import Statistics from '../pages/Statistics/Statistics';
-import DonationDetails from '../pages/DonationDetails/DonationDetails';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
+import DonationDetails from '../pages/DonationDetails/DonationDetails';
 
 const myCreatedRoute = createBrowserRouter([
     {

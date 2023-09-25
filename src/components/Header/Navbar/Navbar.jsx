@@ -5,7 +5,9 @@ const Navbar = () => {
     return (
         <div>
             <nav className="md:flex justify-center md:justify-between text-center md:text-start py-5 px-4 md:px-6 lg:px-20 xl:px-32">
+                <div className="text-center mx-auto md:mx-0 mb-5 md:mb-0 lg:mb-0 xl:mb-0">
                 <Logo></Logo>
+                </div>
                 <ul className="md:flex items-center gap-12 justify-center md:justify-start text-center md:text-start">
                     <li className="my-2">
                         <NavLink
